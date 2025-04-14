@@ -1,11 +1,4 @@
 {
-  "name": "GUI Ubuntu Dev",
-  "image": "ubuntu:22.04",
-  "postCreateCommand": "bash setup.sh",
-  "forwardPorts": [6080],
-  "customizations": {
-    "vscode": {
-      "extensions": ["ms-vscode.remote-containers"]
-    }
-  }
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
 }
